@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    width: 80%;
+    border: 1px solid white;
+    background-color: #031423;
+}
+
+header {
+    color: rgb(231, 146, 21);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header div {
+    border: 1px solid white;
+}
+
+header div img {
+    width: 13em;
+}
+
+#logsign {
+    display: flex;
+    align-items: center;
+}
+
+#logsign a {
+    color: rgb(231, 146, 21);
+
+    text-decoration: none;
+}
+
+#logsign a:hover {
+    color: #ee4848;
+}
+
+#logsign a:active {
+    color: darkred;
+}
