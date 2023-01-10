@@ -6,12 +6,12 @@ body {
     background-color: #031423;
 }
  
-@media screen and (min-width:1280px) {
+@media screen and (max-width:1080px) {
     body {
         width: 100%;
     }
     header div img {
-        width: 140px;
+        width: 130px;
     }
 }
 
