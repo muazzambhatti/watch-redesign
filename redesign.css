@@ -6,12 +6,14 @@ body {
     background-color: #031423;
 }
  
-/* @media screen and (max-width: 1080px) {
+@media screen and (max-width: 9cm) {
     body {
         width: 100%;
-
     }
-} */
+    header div img {
+        width: 150px;
+    }
+}
 
 header {
     color: rgb(231, 146, 21);
