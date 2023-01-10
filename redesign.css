@@ -5,6 +5,13 @@ body {
     border: 1px solid white;
     background-color: #031423;
 }
+ 
+/* @media screen and (max-width: 1080px) {
+    body {
+        width: 100%;
+
+    }
+} */
 
 header {
     color: rgb(231, 146, 21);
@@ -18,7 +25,7 @@ header div {
 }
 
 header div img {
-    width: 13em;
+    width: 180px;
 }
 
 #logsign {
@@ -28,7 +35,7 @@ header div img {
 
 #logsign a {
     color: rgb(231, 146, 21);
-
+    font-size: 16px;
     text-decoration: none;
 }
 
