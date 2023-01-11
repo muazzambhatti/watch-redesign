@@ -79,3 +79,15 @@ hr {
     flex-wrap: wrap;
     flex-direction: column;
 }
+
+@media screen and (max-width:900px) {
+    body {
+        width: 100%;
+    }
+    header div img {
+        width: 6rem;
+    }
+    #notice {
+        width:100%;
+    }
+}
