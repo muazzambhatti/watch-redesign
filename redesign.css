@@ -1,3 +1,8 @@
+html {
+    font-size: 10px;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px auto;
@@ -6,12 +11,12 @@ body {
     background-color: #031423;
 }
  
-@media screen and (min-width:1080px) {
+@media screen and (max-width:900px) {
     body {
         width: 100%;
     }
     header div img {
-        width: 130px;
+        width: 10rem;
     }
 }
 
@@ -27,7 +32,7 @@ header div {
 }
 
 header div img {
-    width: 180px;
+    width: 16rem;
 }
 
 #logsign {
