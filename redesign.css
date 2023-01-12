@@ -186,6 +186,9 @@ footer p a{
         width: 100%;
         height: 200px;
     }
+    footer {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -210,5 +213,8 @@ footer p a{
     }
     .movie {
         width: 120px;
+    }
+    footer {
+        font-size: 1.3rem;
     }
 }
