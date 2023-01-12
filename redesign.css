@@ -11,18 +11,6 @@ body {
     background-color: #031423;
 }
  
-@media screen and (max-width:900px) {
-    body {
-        width: 100%;
-    }
-    header div img {
-        width: 6rem;
-    }
-    #notice {
-        width:100%;
-    }
-}
-
 header {
     color: rgb(231, 146, 21);
     display: flex;
@@ -70,16 +58,15 @@ hr {
 }
 
 #notice {
-        box-sizing: border-box;
-
+    box-sizing: border-box;
     font-size: 1.5rem;
     color: white;
     width: 80%;
     padding: 3px;
     border: 1px white solid;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 @media screen and (max-width:900px) {
@@ -90,7 +77,7 @@ hr {
         width: 13rem;
     }
     #notice {
-        font-size: 1.2rem;
         width:100%;
+        font-size: 1.2rem;
     }
 }
