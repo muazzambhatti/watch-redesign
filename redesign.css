@@ -61,10 +61,10 @@ hr {
     box-sizing: border-box;
     font-size: 1.5rem;
     color: white;
-    width: 80%;
+    width: 75%;
     padding: 3px;
     margin: 15px 0px;
-    border: 1px white solid;
+    /*border: 1px white solid;*/
     /* display: flex;
     flex-wrap: wrap;
     flex-direction: column; */
