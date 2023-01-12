@@ -1,0 +1,175 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    width: 80%;
+    /* border: 1px solid white; */
+    background-color: #031423;
+}
+
+header {
+    color: rgb(231, 146, 21);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border-bottom: 5px solid #ee4848; */
+}
+
+header div img {
+    padding: 3px;
+    width: 16rem;
+}
+
+#logsign {
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+
+#logsign a {
+    color: rgb(231, 146, 21);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#logsign a:hover {
+    color: #ee4848;
+}
+
+#logsign a:active {
+    color: darkred;
+}
+
+hr {
+    margin-top: 25px;
+    height: 2px;
+    width: 60%;
+    background-color: #ee4848;
+    border-color:transparent;
+    border-radius: 2px;
+}
+
+.logindetail {
+    box-sizing: border-box;
+    text-align: center;
+    /* display: inline-block; */
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8rem auto;
+    border:  3px solid rgb(231, 146, 21);
+}
+
+#title {
+    color: #3c3d50;
+    font-size: x-large;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    padding-left: 0.5rem;
+    font-weight: 750;
+    background-color:rgb(231, 146, 21);
+    text-align: left;
+}
+
+.logguide {
+    margin-top: 5rem;
+    color:blanchedalmond;
+}
+
+#loginemail {
+    text-align: center;
+    color: rgb(23, 23, 16);
+    border-radius: 1em;
+    width: 40%; height: 2rem;
+}
+
+#loginpass {
+    text-align: center;
+    color: rgb(23, 23, 16);
+    border-radius: 1em;
+    width: 40%; height: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+#loginbtn {
+    color: rgb(192 118 8);
+    border: 2px rgb(229, 225, 225) solid;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 780;
+    background-color: #dadada;
+    padding: 0.3rem 1em;
+    margin: 2rem 0em;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: underline;
+}
+
+#loginbtn:hover {
+    background-color: rgb(144, 148, 148);
+    color: rgb(255, 158, 12);
+
+}
+
+#sorry {
+    color:rgb(255, 255, 255);
+    margin-top: 0em;
+    margin-bottom: 1.5rem;
+    font-weight: bolder;
+    background-color:rgb(231, 146, 21);
+    text-align:center;
+}
+
+p.logguide {
+    text-align: justify;
+    padding: 0rem 1.5rem;
+    font-size: larger;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        width: 100%;
+    }
+    header div img {
+        width: 13rem;
+    }
+    hr{
+        margin-top: 15px;
+    }
+    .logindetail{
+        font-size: 1.1rem;
+        width: 97%;
+        text-align: left;
+    }  
+    .logguide{
+        padding-left: 10px;
+    }
+    #loginemail{
+        margin-left: 10px;
+        width: 75%;
+    }
+    #loginpass{
+        margin-left: 10px;
+        width: 75%;
+    }
+    #loginbtn{
+        position: relative;
+        left:75%;
+        }  
+}
+
+@media screen and (max-width:600px) {
+    body {
+        width: 100%;
+    }
+    header div img {
+        width: 13rem;
+    }
+    hr{
+        margin-top: 15px;
+    }
+}

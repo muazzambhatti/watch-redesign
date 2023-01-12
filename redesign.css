@@ -54,7 +54,7 @@ hr {
     background-color: #ee4848;
     border-color:transparent;
     border-radius: 2px;
-
+    margin-top: 25px;
 }
 
 #notice {
@@ -181,6 +181,9 @@ footer p a{
     header div img {
         width: 13rem;
     }
+    hr{
+        margin-top: 15px;
+    }
     #notice {
         width:100%;
         font-size: 1.2rem;
@@ -208,6 +211,9 @@ footer p a{
     }
     header div img {
         width: 13rem;
+    }
+    hr{
+        margin-top: 15px;
     }
     #notice {
         width:100%;
