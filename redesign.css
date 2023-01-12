@@ -127,9 +127,11 @@ hr {
         font-size: 1.2rem;
     }
     #maincontent {
+        margin: 5px;
         width: 100%;
     }
     #sidecolumn {
+        margin: 5px;
         width: 100%;
         height: 200px;
     }
