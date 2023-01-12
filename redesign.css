@@ -187,3 +187,28 @@ footer p a{
         height: 200px;
     }
 }
+
+@media screen and (max-width:600px) {
+    body {
+        width: 100%;
+    }
+    header div img {
+        width: 13rem;
+    }
+    #notice {
+        width:100%;
+        font-size: 1.2rem;
+    }
+    #maincontent {
+        width: 100%;
+        margin: 5px;
+    }
+    #sidecolumn {
+        margin: 5px;
+        width: 100%;
+        height: 200px;
+    }
+    .movie {
+        width: 120px;
+    }
+}
