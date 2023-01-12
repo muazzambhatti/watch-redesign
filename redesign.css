@@ -64,7 +64,7 @@ hr {
     width: 75%;
     padding: 3px;
     margin: 15px 0px;
-    /*border: 1px white solid;*/
+    /* border: 1px white solid; */
     /* display: flex;
     flex-wrap: wrap;
     flex-direction: column; */
@@ -129,14 +129,19 @@ hr {
 
 #sidecolumn {
     box-sizing: border-box;
-    overflow-y:scroll;
     height: 300px;
     width: 22%;
     color: white;
     border: 3px solid rgb(231, 146, 21);
 }
 
-#sidecolumn ul li a {
+#list {
+    overflow-y:scroll;
+
+    height: 265px;
+}
+
+#list ul li a {
     font-size: 1.2rem;
     text-decoration: none;
     color: white;
