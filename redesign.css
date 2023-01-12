@@ -118,10 +118,13 @@ hr {
 }
 
 #movieaddnotice {
+    display: flex;
+    flex-direction: row;
     color: rgb(96, 98, 118);
     width: 150px;
     text-align: center;
     font-size: 3rem;
+    align-items: center;
 }
 
 #sidecolumn {
