@@ -61,6 +61,7 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     margin: 8rem auto;
     border:  3px solid rgb(231, 146, 21);
+    border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;
 }
 
 #title {
@@ -68,7 +69,7 @@ hr {
     font-size: x-large;
     margin-top: 0rem;
     margin-bottom: 3rem;
-    padding-left: 0.5rem;
+    padding-left: 1.5rem;
     font-weight: 750;
     background-color:rgb(231, 146, 21);
     text-align: left;
@@ -130,6 +131,27 @@ p.logguide {
     font-size: larger;
 }
 
+.newpass {
+    text-align: center;
+    color: rgb(23, 23, 16);
+    border-radius: 1em;
+    width: 40%; height: 2rem;
+}
+
+#signupbtn {
+    color: rgb(192 118 8);
+    border: 2px rgb(229, 225, 225) solid;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 780;
+    background-color: #dadada;
+    padding: 0.3rem 1em;
+    margin: 2rem 0em;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: underline;
+}
+
 @media screen and (max-width:900px) {
     body {
         width: 100%;
@@ -159,10 +181,18 @@ p.logguide {
     #loginbtn{
         position: relative;
         left:75%;
-        }  
+    }
+    .newpass{
+        margin-left: 10px;
+        width: 75%;
+    }
+    #signupbtn{
+        position: relative;
+        left: 37%;
+    }
 }
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
     body {
         width: 100%;
     }
@@ -172,4 +202,4 @@ p.logguide {
     hr{
         margin-top: 15px;
     }
-}
+} */

@@ -95,6 +95,10 @@ hr {
     /* border: solid 1px red; */
 }
 
+#flexbox a {
+    text-decoration: none;
+}
+
 #picktitle {
     color: black;
     background-color: rgb(231, 146, 21) ;
