@@ -194,6 +194,9 @@ footer p a{
         width: 100%;
         height: 200px;
     }
+    #list{
+        height: 165px;
+    }
     footer {
         font-size: 1.5rem;
     }
@@ -218,6 +221,9 @@ footer p a{
         margin: 5px;
         width: 100%;
         height: 200px;
+    }
+    #list{
+        height: 165px;
     }
     .movie {
         width: 120px;
