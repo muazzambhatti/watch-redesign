@@ -1,0 +1,155 @@
+/* ***************start of css for main page*************** */
+
+body {
+    padding: 2em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    /* shared with all pages */
+    background-color: #031423;
+    margin: 0px auto;
+    width: 80%;
+    overflow: ; scr
+    /* border: 2px solid white; */
+}
+
+header {
+    margin: auto;
+    /* width: 95%; */
+    border-bottom: 0.3em solid #ee4848;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px
+}
+
+.headleft {
+    margin: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 0.9em; */
+    color: rgb(231, 146, 21);
+    display: inline-block;
+    width: 10%;
+}
+
+#headright {
+    margin-top: 2em;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(231, 146, 21);
+}
+
+.loginsignup {
+    color: rgb(231, 146, 21);
+}
+
+.loginsignup:hover {
+    color: #ee4848;
+}
+
+.loginsignup:active {
+    color: darkred;
+}
+
+#logoimg {
+    position: relative;
+    /* top: 0.3em; */
+    width: 95%;
+    /* margin-left: 25px; */
+}
+
+/* ***************end of css for main page*************** */
+
+.notice {
+    margin: 2em 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 55%;
+}
+
+.weekpick {
+    color: black;
+    background-color: rgb(231, 146, 21) ;
+    margin: 0em;
+    padding: 0.2em; padding-left: 0.5em;
+}
+
+.content {
+    display: inline-block;
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1em 0em;
+    /* border: 2px solid white; */
+}
+
+.movie {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75em;
+    text-align: center;
+    border-bottom: 2px solid rgb(231, 146, 21);
+    width: 20%;
+    display: inline-block;
+    margin: 1.5% 2%;
+}
+
+.movie:hover {
+    color:aqua;
+}
+
+.moviedescription {
+    margin: 0.3em 0em;
+}
+
+.poster {
+    display: block;
+    width: 100%;
+}
+
+#update {
+    /* padding: auto 1em; */
+    box-sizing: border-box;
+    color: rgb(96, 98, 118);
+    width: 20%;
+    display: inline-block;
+    margin: 1.5% 2%;
+    font-size: 2.5em;
+}
+
+.movielist {
+    font-family: Arial, Helvetica, sans-serif;
+    float :right;
+    width: 22%;
+    /* border-bottom: 0.15em solid rgb(231, 146, 21); */
+    border-left: 0.15em solid rgb(231, 146, 21);
+}
+
+.namelist {
+    font-size: 0.9em;
+    /* margin-top: 0.3em;  margin-bottom: 0.3em; */
+    padding-left: 0.2em;
+    text-decoration: none;
+    color: white;
+}
+
+.namelist:hover {
+    color: aqua;
+}
+
+.namelist:visited {
+    color: darkcyan;
+
+}
+
+/* @@@@@@@@@@@@@ start of footer css @@@@@@@@@@@@@ */
+
+footer {
+    background-color: #2f1010;
+    margin: auto;
+    /* width: 95%; */
+    /* border: 2px solid white; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    color: rgb(231, 146, 21);
+}
+
+/* @@@@@@@@@@@@@ end of footer css @@@@@@@@@@@@@ */
