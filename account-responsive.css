@@ -180,9 +180,8 @@ p.logguide {
         width: 75%;
     }
     #loginbtn{
-        position:absolute;
-        right: 8px;
-        bottom: 8px;
+        position: relative;
+        left: 76%;
     }
     .newpass{
         margin-left: 10px;
@@ -194,7 +193,7 @@ p.logguide {
     }
 }
 
-/* @media screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     body {
         width: 100%;
     }
@@ -204,4 +203,8 @@ p.logguide {
     hr{
         margin-top: 15px;
     }
-} */
+    #loginbtn{
+        position: relative;
+        left: 72%;
+    }
+}
