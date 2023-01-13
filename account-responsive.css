@@ -1,8 +1,10 @@
 html {
     font-size: 10px;
+    background-color: #010131;
 }
 
 body {
+    height: 100vh;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px auto;
@@ -20,12 +22,12 @@ header {
 }
 
 header div img {
-    padding: 3px;
+    padding: 10px;
     width: 16rem;
 }
 
 #logsign {
-    padding: 3px;
+    padding: 10px;
     display: flex;
     align-items: center;
 }
@@ -61,7 +63,6 @@ hr {
     font-family: Arial, Helvetica, sans-serif;
     margin: 8rem auto;
     border:  3px solid rgb(231, 146, 21);
-    border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;
 }
 
 #title {
@@ -99,7 +100,7 @@ hr {
 #loginbtn {
     color: rgb(192 118 8);
     border: 2px rgb(229, 225, 225) solid;
-    border-radius: 1rem;
+    border-radius: 5px;
     font-size: 1.5rem;
     font-weight: 780;
     background-color: #dadada;
@@ -128,7 +129,7 @@ hr {
 p.logguide {
     text-align: justify;
     padding: 0rem 1.5rem;
-    font-size: larger;
+    font-size: 1.5rem;
 }
 
 .newpass {
@@ -141,7 +142,7 @@ p.logguide {
 #signupbtn {
     color: rgb(192 118 8);
     border: 2px rgb(229, 225, 225) solid;
-    border-radius: 1rem;
+    border-radius: 5px;
     font-size: 1.5rem;
     font-weight: 780;
     background-color: #dadada;
