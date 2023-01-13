@@ -180,8 +180,9 @@ p.logguide {
         width: 75%;
     }
     #loginbtn{
-        position: relative;
-        left:72%;
+        position:absolute;
+        right: 8px;
+        bottom: 8px;
     }
     .newpass{
         margin-left: 10px;
