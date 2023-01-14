@@ -105,9 +105,10 @@ img {
         width: 100%;
     }
     #contactmethods {
-        width: 70%;
+        margin-left: 10px;
+        width: 90%;
     }
     #icons {
-        width: 95%;
+        width: 100%;
     }
 }
