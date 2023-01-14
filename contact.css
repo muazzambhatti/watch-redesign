@@ -1,0 +1,68 @@
+html {
+    font-size: 10px;
+    background-color: #010131;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px auto;
+    width: 80%;
+    /* border: 1px solid white; */
+    background-color: #031423;
+}
+
+header {
+    color: rgb(231, 146, 21);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border-bottom: 5px solid #ee4848; */
+}
+
+header div img {
+    padding: 10px;
+    width: 16rem;
+}
+
+#logsign {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#logsign a {
+    color: rgb(231, 146, 21);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#logsign a:hover {
+    color: #ee4848;
+}
+
+#logsign a:active {
+    color: darkred;
+}
+
+hr {
+    margin-top: 25px;
+    height: 2px;
+    width: 60%;
+    background-color: #ee4848;
+    border-color:transparent;
+    border-radius: 2px;
+}
+
+p {
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        width: 100%;
+    }
+}
